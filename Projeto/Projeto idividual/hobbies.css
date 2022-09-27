@@ -1,40 +1,45 @@
+/* Resetando a margem e o padding*/
 *
 {
 margin: 0;
 padding: 0;
 }
+/*Criando o background*/
 body
 {
     
   background-image: linear-gradient(to right, rgb(97, 49, 153), rgb(116, 4, 101));
 }
+/* Devinindo como vai ser o formato da flexbox*/
 .container
 {
     display: flex;
-    display: 500px;
     align-items: center;
     justify-content: center;
 }
+/*Estilizando as caixar*/
 .hobbies
 {
- color: white;
-text-indent: 20px;
-margin-top: 40px;
-margin-left: 10px;
-margin-right: 10px;
-width: 400px;
-height: 500px;
-background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(28, 138, 202));
-border-radius: 15px;
-border: 1px solid black;
-list-style: none;
-text-align: justify;
-    padding: 10px; 
+  color: white;
+  text-indent: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 400px;
+  height: 500px;
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(28, 138, 202));
+  border-radius: 15px;
+  border: 1px solid black;
+  list-style: none;
+  text-align: justify;
+  padding: 10px; 
 }
+/*Centralizando o h2*/
 h2
 {
     text-align: center;
 }
+/*Estilizando a lista*/
 .lista
 {
 color: white;
@@ -43,6 +48,7 @@ list-style: none;
 text-align: justify;
 padding: 10px; 
 }
+/* Estilizando a barra de navegação*/
 nav
 {
  border-bottom: 2px solid black;

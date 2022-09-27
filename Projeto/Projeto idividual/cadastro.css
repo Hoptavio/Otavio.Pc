@@ -1,35 +1,38 @@
+/* resetando a margem e o pedding */
 *
 {
  margin: 0;
  padding: 0;
 }
-      
+/* Colocando o background e definindo a fonte */
 body
 {
   font-family      : Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to right, rgb(97, 49, 153), rgb(116, 4, 101));
 }
+/* Aqui é aonde eu estilizei o formulário */
 .box{
+  width: 300px;
    color           : white ;
    position        : absolute;
-  top              : 40%;
+  top              : 50%;
   left             : 50%; 
   transform        : translate(-50%,-50%);
-  background-color : rgba(75, 23, 23, 0.76);
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(28, 138, 202));
   padding          : 15px;
   border-radius    : 15px;
 }
 fieldset
 {
- border: 2px solid  rgb(196, 182, 194);
-
+ margin-bottom: 10px;
+ border: 2px solid  rgba(0, 0, 0, 0.637);
 }
 legend
 {
    border           : 1px solid rgb(196, 182, 194);
    padding          : 10px;
    text-align       : center;
-   background-color :  rgb(196, 182, 194);
+   background-color :  black;
    border-radius    : 10px;
 }
 .inputBox
@@ -62,7 +65,25 @@ legend
   font-size: 12px;
   color: black;
 }
+#submit
+{
+  background-image: linear-gradient(to right, rgb(97, 49, 153),rgb(220, 207, 233), rgb(116, 4, 101));
+  margin-left: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#submit:hover
+{
+  background-image: linear-gradient(to right, rgb(97, 49, 153),rgb(208, 255, 224), rgb(116, 4, 101));
+}
+/* Aqui é aonde eu  terminei de estilizar o formulário */
 
+/* Estilizando a barra de navegação*/
 nav
 {
 
@@ -95,3 +116,4 @@ a:hover
    letter-spacing: 3px;
    margin-left: 20vh;
 }
+/* Fim da estilização da barra de navegação*/
