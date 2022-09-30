@@ -30,6 +30,7 @@
 }
   /* Fim Customizando a imagens*/
 
+  /*Customizando as setas*/
 .arrow-left,
 .arrow-right
 {
@@ -58,17 +59,25 @@
   background : linear-gradient(to right, transparent 0%, black 200%);
 
 }
-
+/*Fazendo as setas ficarem visiveis ao entrar em contato com o mause*/
 .arrow-left:hover,
 .arrow-right:hover
 {
   opacity: 1;
 }
+/* Fim Fazendo as setas ficarem visiveis ao entrar em contato com o mause*/
+
+/* Fim Customizando as setas*/
+
+/*Padronizando as imagens*/
 img
 {
   width: 190px;
   height: 190px;
 }
+/*Fim Padronizando as imagens*/
+
+/*Customizando as imagens dentro do barra*/
 .item
 {
   width: 200px;
@@ -84,6 +93,9 @@ img
   opacity: 1;
   border: 5px solid rgb(0, 0, 0);
 }
+/* Fim Customizando as imagens dentro do barra*/
+
+
 
 /* This is from w3schools */
 /* 
